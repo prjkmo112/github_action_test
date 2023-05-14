@@ -14,7 +14,7 @@ jobs:
           python-version: 3.9
       
       - name: Install python Dependencies
-        run: pip install -r requirements
+        run: pip install -r requirements.txt
         
       - name: echo workspace
         run: echo $GITHUB_WORKSPACE
