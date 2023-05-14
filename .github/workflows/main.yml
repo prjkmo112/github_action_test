@@ -24,7 +24,7 @@ jobs:
         shell: bash
 
       - name: run test
-        run: coverage run app.py
+        run: coverage run -m unittest app.py
 
       - name: test report
         run: coverage report
